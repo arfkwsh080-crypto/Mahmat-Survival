@@ -3,8 +3,7 @@ name: Build Android APK
 on:
   workflow_dispatch:
   push:
-    paths:
-      - 'war_game_2d_android_project.zip'
+    paths:          - 'war_game_2d_android_project_ready.zip'
       - '.github/workflows/build-apk.yml'
 
 jobs:
